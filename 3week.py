@@ -7,6 +7,8 @@ num = 0
 for i in range(100):
     num += 100
     print('ith num =',i, num)
+#tab키가 제어문의 앞과 끝을 지정한다.
+'''
 '''
 age = int(input("나이를 입력하세요:"))
 if age < 20:
@@ -15,4 +17,13 @@ elif age >= 65:
     print('경로 우대')
 # else는 else:로 사용하며 위의 조건을 만족하지 않는 경우.
 # elif는 if 조건 만족하지 않는 것들 중 특정 경우.
+'''
 
+num = int(input('숫자를 입력하세요:'))
+
+if num<0:
+    print(num,'은(는) 음수입니다.')
+elif num%2 == 0:
+    print(num, '은(는) 짝수입니다')
+else:
+    print(num, '은(는) 홀수입니다.')
