@@ -119,7 +119,7 @@ class RacingCar:
     def runCar(self):
         for _ in range(3):
             print(self.carName + '~~달립니다.')
-            time.sleep(0.1)
+            time.sleep(1)
 
 def run_wrapper(name):
     car = RacingCar(name)
